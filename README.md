@@ -1,4 +1,4 @@
-# Fast Cart
+# Fast Cart 🛒
 
 This project demonstrates building a microservices architecture using FastAPI and Redis. It consists of two main microservices: Inventory Microservice and Payment Microservice. The Inventory Microservice handles storing products and their quantities, while the Payment Microservice processes orders and payments. Redis is utilized as both a data store and for event streaming between microservices. 🚀
 
