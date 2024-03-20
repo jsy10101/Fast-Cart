@@ -2,27 +2,6 @@
 
 This project demonstrates building a microservices architecture using FastAPI and Redis. It consists of two main microservices: Inventory Microservice and Payment Microservice. The Inventory Microservice handles storing products and their quantities, while the Payment Microservice processes orders and payments. Redis is utilized as both a data store and for event streaming between microservices. 🚀
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Setup and Run](#setup-and-run)
-  - [Prerequisites](#prerequisites)
-  - [Clone the Repository](#clone-the-repository)
-  - [Setting Up the Inventory Microservice](#setting-up-the-inventory-microservice)
-  - [Setting Up the Payment Microservice](#setting-up-the-payment-microservice)
-- [App Demo](#app-demo)
-- [Inventory Microservice Setup](#inventory-microservice-setup)
-  - [FastAPI Setup](#fastapi-setup)
-  - [Connecting to Redis](#connecting-to-redis)
-  - [Creating Product Models](#creating-product-models)
-  - [API Endpoints](#api-endpoints)
-- [Payment Microservice Setup](#payment-microservice-setup)
-  - [Connecting to Redis](#connecting-to-redis)
-  - [Processing Orders](#processing-orders)
-  - [Handling Asynchronous Tasks](#handling-asynchronous-tasks)
-  - [Refunding Orders](#refunding-orders)
-- [Conclusion](#conclusion)
-
 ## Introduction
 
 This project demonstrates building a microservices architecture using FastAPI and Redis. It consists of two main microservices: Inventory Microservice and Payment Microservice. The Inventory Microservice handles storing products and their quantities, while the Payment Microservice processes orders and payments. Redis is utilized as both a data store and for event streaming between microservices. 📦
