@@ -16,16 +16,16 @@ This project demonstrates building a microservices architecture using FastAPI an
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/microservices-project.git
-cd microservices-project
+git clone https://github.com/jsy10101/Fast-Cart.git
+cd Fast-Cart
 ```
 
 ### Setting Up the Inventory Microservice
 
-1. Navigate to the `inventory-microservice` directory.
+1. Navigate to the `Fast-Cart` directory.
 
 ```bash
-cd inventory-microservice
+cd inventory
 ```
 
 2. Install dependencies.
@@ -42,10 +42,10 @@ uvicorn main:app --reload
 
 ### Setting Up the Payment Microservice
 
-1. Navigate to the `payment-microservice` directory.
+1. Navigate to the `payment` directory.
 
 ```bash
-cd ../payment-microservice
+cd ../payment
 ```
 
 2. Install dependencies.
@@ -69,10 +69,6 @@ The application allows users to create products and purchase them. Upon creation
 ### FastAPI Setup
 
 To set up the Inventory Microservice, install FastAPI and Uvicorn by following the instructions at [FastAPI Documentation](https://fastapi.tiangolo.com/).
-
-### Connecting to Redis
-
-Create a Redis database using Redis Cloud and connect to it using `redis-py`. 📡
 
 ### Creating Product Models
 
